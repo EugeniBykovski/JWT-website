@@ -1,0 +1,22 @@
+.modal {
+  backdrop-filter: blur(8px);
+
+  &-body {
+    background: $bg-card;
+  }
+
+  &-header {
+    background: $color-green;
+    border-bottom: none;
+    color: $color-white;
+  }
+
+  .title-description {
+    color: $color-white;
+  }
+
+  .close {
+    text-shadow: none;
+    opacity: 1;
+  }
+}

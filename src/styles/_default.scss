@@ -3,7 +3,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: $color-green;
+  background: $primary-color;
 }
 
 html,
@@ -16,9 +16,4 @@ body {
 
 .container {
   @include container();
-}
-
-.title {
-  font-family: $font-family-2;
-  font-size: $font-48;
 }

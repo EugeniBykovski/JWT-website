@@ -1,0 +1,22 @@
+.swiper {
+  width: 100%;
+  height: 20rem;
+
+  &-slide {
+    @include flex();
+  }
+
+  &-scrollbar {
+    &-drag {
+      background-color: $color-red;
+    }
+  }
+}
+
+.line {
+  .swiper {
+    &-scrollbar {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.box {
+  @include transition();
+  padding: $p-2;
+
+  border-radius: $r-1-5;
+  background-color: $color-white;
+  box-shadow: $box-cubic-shadow;
+
+  text-align: center;
+  text-shadow: $text-shadow;
+
+  cursor: pointer;
+
+  &:hover {
+    transform: translateY(-3px);
+  }
+}

@@ -1,0 +1,56 @@
+.title {
+  padding: $p-1;
+
+  font-size: $font-48;
+  font-weight: $font-w-700;
+
+  text-align: center;
+  line-height: 55px;
+  color: $primary-color;
+
+  &-section {
+    padding: $p-1;
+
+    line-height: 30px;
+    font-size: $font-24;
+    text-align: center;
+    color: $primary-color;
+  }
+
+  &-description {
+    padding: 0 $p-0-5;
+
+    font-size: $font-12;
+    text-align: center;
+
+    color: $color-gray;
+    letter-spacing: 1px;
+    line-height: 1.3;
+  }
+
+  &-badge {
+    padding: $p-1;
+
+    font-size: $font-18;
+    text-align: center;
+
+    &__new {
+      color: $color-green;
+    }
+
+    &__old {
+      font-size: $font-14;
+
+      color: $color-gray;
+      text-decoration: line-through;
+    }
+  }
+
+  &,
+  &-section,
+  &-description {
+    &::selection {
+      @include selection();
+    }
+  }
+}

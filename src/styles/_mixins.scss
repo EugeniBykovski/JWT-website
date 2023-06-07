@@ -19,3 +19,8 @@
   background: $bg-container;
   background-size: 6px 6px;
 }
+
+@mixin selection {
+  background-color: $color-red;
+  color: $color-white;
+}

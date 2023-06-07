@@ -1,0 +1,59 @@
+.btn {
+  @include transition();
+
+  display: inline-block;
+  width: 140px;
+  height: 45px;
+  margin: $m-4;
+
+  text-decoration: none;
+  line-height: 35px;
+  border-radius: 45px;
+  text-align: center;
+
+  font-size: $font-14;
+  font-weight: $font-w-500;
+
+  color: $primary-color;
+  background: $color-white;
+  box-shadow: 0 8px 15px $box-shadow-third;
+
+  &:hover {
+    color: $color-white;
+    box-shadow: 0 5px 10px $box-shadow-second;
+    text-decoration: none;
+    transform: translateY(-3px);
+  }
+
+  &__add {
+    color: $color-white;
+    background: $color-green;
+  }
+
+  &__reset {
+    color: $color-white;
+    background: $color-red;
+  }
+
+  &__default {
+    color: $color-white;
+    background: $color-gray-light;
+  }
+
+  &__dark {
+    color: $color-white;
+    background: $primary-color;
+  }
+
+  &__up {
+    position: fixed;
+    right: 20px;
+    bottom: 0px;
+
+    cursor: pointer;
+
+    &_hide {
+      display: none;
+    }
+  }
+}
