@@ -14,3 +14,13 @@ sr.reveal(".left-block", {
   delay: 200,
   origin: "left",
 });
+
+sr.reveal(".right-block", {
+  delay: 200,
+  origin: "right",
+});
+
+sr.reveal(".bottom-block", {
+  delay: 200,
+  origin: "bottom",
+});

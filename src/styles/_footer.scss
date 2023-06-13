@@ -1,0 +1,11 @@
+.footer {
+  width: 100%;
+  padding: $p-1;
+
+  background-color: $color-red;
+  z-index: 12;
+
+  p {
+    margin: 0;
+  }
+}

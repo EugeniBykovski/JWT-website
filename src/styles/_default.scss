@@ -3,7 +3,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: $primary-color;
+  background: $color-red;
 }
 
 html,
@@ -16,4 +16,25 @@ body {
 
 .container {
   @include container();
+}
+
+.logo {
+  @include flex();
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.image {
+  width: 100%;
+
+  &__card {
+    position: absolute;
+    right: 0px;
+    top: 5rem;
+
+    width: fit-content;
+    height: 80%;
+  }
 }

@@ -1,0 +1,17 @@
+.order {
+  &__lists {
+    @include flex();
+    width: 100%;
+  }
+
+  &__list {
+    @include transition();
+    @include flex();
+
+    padding: $p-1-5;
+
+    &:hover {
+      transform: translateY(-2px);
+    }
+  }
+}

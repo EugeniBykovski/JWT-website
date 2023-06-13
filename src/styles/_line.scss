@@ -1,6 +1,6 @@
 #svgScroll {
   position: fixed;
-  top: 20%;
+  top: 30%;
   left: 7%;
 
   width: 400px;
@@ -8,24 +8,23 @@
 
   z-index: -1;
   transform: scale(1.7);
-}
 
-#svgScroll-2 {
-  position: fixed;
-  bottom: 0;
-  left: 15%;
+  &-2 {
+    position: fixed;
+    bottom: 0;
+    left: 15%;
 
-  z-index: 10;
-  transform: scale(2.5);
-}
+    z-index: 10;
+    transform: scale(2.5);
+  }
 
-#svgScroll-3 {
-  position: fixed;
-  top: 0;
-  right: 10%;
+  &-3 {
+    position: fixed;
+    top: 9%;
+    right: 5%;
+    height: 400px;
 
-  height: 400px;
-
-  z-index: 10;
-  transform: scale(2);
+    z-index: 10;
+    transform: scale(1.7);
+  }
 }

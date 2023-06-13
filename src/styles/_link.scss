@@ -1,0 +1,16 @@
+.link {
+  @include transition();
+
+  position: relative;
+  padding: $p-0-5 0;
+
+  text-decoration: none;
+  line-height: 30px;
+  color: $color-white;
+  font-size: $font-13;
+
+  &:hover {
+    color: $color-red-darken;
+    text-decoration: none;
+  }
+}

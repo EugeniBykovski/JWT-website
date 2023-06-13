@@ -1,0 +1,37 @@
+.section {
+  padding: $p-2;
+
+  &__block {
+    @include flex();
+
+    &_image {
+      position: relative;
+
+      width: 50%;
+      height: 30rem;
+    }
+
+    &_description {
+      @include transition();
+      position: relative;
+
+      width: 50%;
+      padding: $p-3;
+
+      text-align: center;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+  &__image {
+    display: flex;
+    justify-content: center;
+  }
+
+  &-1 {
+    margin-top: $m-10;
+  }
+}

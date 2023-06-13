@@ -1,12 +1,15 @@
 .title {
   padding: $p-1;
 
+  font-family: $font-family-2;
   font-size: $font-48;
   font-weight: $font-w-700;
 
   text-align: center;
   line-height: 55px;
   color: $primary-color;
+
+  animation: glitch1 2.5s infinite;
 
   &-section {
     padding: $p-1;
@@ -46,8 +49,24 @@
     }
   }
 
+  &-logo {
+    @include transition();
+    width: 100%;
+    margin: 0;
+
+    letter-spacing: 3px;
+    color: $color-red-darken;
+
+    font-family: $font-family-2;
+
+    &:hover {
+      color: $color-white;
+    }
+  }
+
   &,
   &-section,
+  &-logo,
   &-description {
     &::selection {
       @include selection();
