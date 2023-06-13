@@ -171,44 +171,6 @@
 
       <div class="btn btn__reset btn__up btn__up_hide">Up</div>
 
-      <div
-        class="modal fade"
-        id="exampleModalCenter"
-        tabindex="-1"
-        role="dialog"
-        aria-labelledby="exampleModalCenterTitle"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h3 class="modal-title" id="exampleModalLongTitle">
-                Modal title
-              </h3>
-              <button
-                type="button"
-                class="close"
-                data-dismiss="modal"
-                aria-label="Close"
-              >
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <p class="title-description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
-                maxime quia fugiat, ipsam voluptatum est ullam non rem eius
-                expedita neque veritatis iure! Fugit quas eligendi repellat
-                fuga? Minima, magni, quas accusamus quis id unde architecto
-                quisquam ut exercitationem tempora, nisi eos? Non excepturi
-                corporis accusantium officiis voluptates temporibus ipsam.Lorem
-                ipsum dolor sit amet consectetur adipisicing elit.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
       <svg id="svgScroll" xmlns="http://www.w3.org/2000/svg">
         <path
           stroke="#FF0066"
@@ -237,6 +199,52 @@
       </svg>
     </div>
 
+    <!-- spinner -->
+    <div id="loading">
+      <img
+        id="loading-image"
+        src="./img/icons8-loading-infinity.gif"
+        alt="Loading..."
+      />
+    </div>
+
+    <!-- modal -->
+    <div
+      class="modal fade"
+      id="exampleModalCenter"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="exampleModalLongTitle">Modal title</h3>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p class="title-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+              maxime quia fugiat, ipsam voluptatum est ullam non rem eius
+              expedita neque veritatis iure! Fugit quas eligendi repellat fuga?
+              Minima, magni, quas accusamus quis id unde architecto quisquam ut
+              exercitationem tempora, nisi eos? Non excepturi corporis
+              accusantium officiis voluptates temporibus ipsam.Lorem ipsum dolor
+              sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- bootstrap -->
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -263,5 +271,6 @@
     <script type="module" src="./js/scroll_up.js"></script>
     <script type="module" src="./js/scroll_reveal.js"></script>
     <script type="module" src="./js/scroll_line.js"></script>
+    <script type="module" src="./js/spinner.js"></script>
   </body>
 </html>
