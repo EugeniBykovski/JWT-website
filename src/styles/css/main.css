@@ -150,6 +150,32 @@ body {
   display: none;
 }
 
+#svgScroll {
+  position: fixed;
+  top: 20%;
+  left: 7%;
+  width: 400px;
+  height: 400px;
+  transform: scale(1.7);
+}
+
+#svgScroll-2 {
+  position: fixed;
+  bottom: 0;
+  left: 15%;
+  z-index: 10;
+  transform: scale(2.5);
+}
+
+#svgScroll-3 {
+  position: fixed;
+  top: 0;
+  right: 10%;
+  height: 400px;
+  z-index: 10;
+  transform: scale(2);
+}
+
 .card {
   display: grid;
   grid-template-columns: 4fr 3fr;
