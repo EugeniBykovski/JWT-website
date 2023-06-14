@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/EugeniBykovski/JWT-website#readme",
   "devDependencies": {
+    "normalize.css": "^8.0.1",
     "sass": "^1.62.1"
   }
 }

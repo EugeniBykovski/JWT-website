@@ -2,7 +2,7 @@ const sr = ScrollReveal({
   distance: "65px",
   duration: 2500,
   delay: 400,
-  reset: true,
+  // reset: true,
 });
 
 sr.reveal(".up-block", {

@@ -30,3 +30,8 @@
     transform: scale(1.7);
   }
 }
+
+.line {
+  padding: $p-1;
+  border-bottom: 2px solid $color-red;
+}

@@ -1,5 +1,5 @@
 .section {
-  padding: $p-2;
+  padding: $p-4 $p-2;
 
   &__block {
     @include flex();

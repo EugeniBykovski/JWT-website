@@ -1,6 +1,7 @@
 .box {
   @include transition();
   padding: $p-2;
+  margin-bottom: $m-2;
 
   border-radius: $r-1-5;
   background-color: $color-white;
