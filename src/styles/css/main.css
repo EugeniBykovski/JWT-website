@@ -45,11 +45,12 @@ body {
   padding: 1rem;
   font-family: "Palette Mosaic", cursive;
   font-size: 48px;
-  font-weight: 700;
+  font-weight: 300;
   text-align: center;
   line-height: 55px;
-  color: #303030;
-  animation: glitch1 2.5s infinite;
+  transform: rotate(8deg);
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 3px #303030;
 }
 .title-section {
   padding: 1rem;
@@ -118,6 +119,7 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  margin: 0;
 }
 .order__list {
   transition: all 0.3s;
@@ -227,7 +229,8 @@ body {
 #svgScroll-2 {
   position: fixed;
   bottom: 0;
-  left: 15%;
+  left: 10%;
+  width: 150px;
   z-index: 10;
   transform: scale(2.5);
 }
@@ -256,47 +259,6 @@ body {
   z-index: 100;
 }
 
-@keyframes glitch1 {
-  0% {
-    transform: none;
-  }
-  7% {
-    transform: skew(-0.5deg, -0.9deg);
-  }
-  10% {
-    transform: none;
-  }
-  27% {
-    transform: none;
-  }
-  30% {
-    transform: skew(0.8deg, -0.1deg);
-  }
-  35% {
-    transform: none;
-  }
-  52% {
-    transform: none;
-  }
-  55% {
-    transform: skew(-1deg, 0.2deg);
-  }
-  50% {
-    transform: none;
-  }
-  72% {
-    transform: none;
-  }
-  75% {
-    transform: skew(0.4deg, 1deg);
-  }
-  80% {
-    transform: none;
-  }
-  100% {
-    transform: none;
-  }
-}
 .parallax-1 {
   position: fixed;
   top: 6rem;
@@ -307,6 +269,13 @@ body {
   position: fixed;
   top: 40%;
   right: 2%;
+}
+
+.parallax-3 {
+  position: fixed;
+  bottom: -2%;
+  right: 5%;
+  transform: rotate(180deg);
 }
 
 .card {
@@ -395,9 +364,6 @@ body {
   text-shadow: 16px 11px 4px rgb(84, 84, 87);
   cursor: pointer;
 }
-.box:hover {
-  transform: translateY(-3px);
-}
 
 .header {
   display: flex;
@@ -444,6 +410,8 @@ body {
 }
 
 .footer {
+  position: fixed;
+  bottom: 0;
   width: 100%;
   padding: 1rem;
   background-color: #ff0066;

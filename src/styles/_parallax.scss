@@ -9,3 +9,11 @@
   top: 40%;
   right: 2%;
 }
+
+.parallax-3 {
+  position: fixed;
+  bottom: -2%;
+  right: 5%;
+
+  transform: rotate(180deg);
+}

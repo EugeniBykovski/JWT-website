@@ -11,12 +11,12 @@ sr.reveal(".up-block", {
 });
 
 sr.reveal(".left-block", {
-  delay: 200,
+  delay: 1500,
   origin: "left",
 });
 
 sr.reveal(".right-block", {
-  delay: 200,
+  delay: 1500,
   origin: "right",
 });
 

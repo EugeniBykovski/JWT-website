@@ -3,13 +3,14 @@
 
   font-family: $font-family-2;
   font-size: $font-48;
-  font-weight: $font-w-700;
+  font-weight: $font-w-300;
 
   text-align: center;
   line-height: 55px;
-  color: $primary-color;
 
-  animation: glitch1 2.5s infinite;
+  transform: rotate(8deg);
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 3px $primary-color;
 
   &-section {
     padding: $p-1;
