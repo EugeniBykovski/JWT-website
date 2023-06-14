@@ -24,6 +24,10 @@
         cursor: pointer;
       }
     }
+
+    &-red {
+      background-color: $color-red;
+    }
   }
 
   &__image {

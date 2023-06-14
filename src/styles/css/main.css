@@ -353,6 +353,13 @@ body {
   height: 80%;
 }
 
+.not-found {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 .title {
   padding: 1rem;
   font-family: "Palette Mosaic", cursive;
@@ -410,6 +417,10 @@ body {
 .title::selection, .title-section::selection, .title-logo::selection, .title-description::selection {
   background-color: #ff0066;
   color: #ffffff;
+}
+
+.fz30 {
+  font-size: 30rem;
 }
 
 .link {
@@ -732,6 +743,9 @@ body {
 }
 .section__block_description:hover {
   cursor: pointer;
+}
+.section__block-red {
+  background-color: #ff0066;
 }
 .section__image {
   display: flex;
