@@ -217,8 +217,8 @@ body {
 
 #svgScroll {
   position: fixed;
-  top: 30%;
-  left: 7%;
+  top: 15%;
+  left: 9.5%;
   width: 400px;
   height: 400px;
   z-index: -1;
@@ -297,6 +297,18 @@ body {
     transform: none;
   }
 }
+.parallax-1 {
+  position: fixed;
+  top: 6rem;
+  left: 5%;
+}
+
+.parallax-2 {
+  position: fixed;
+  top: 40%;
+  right: 2%;
+}
+
 .card {
   display: grid;
   grid-template-columns: 4fr 3fr;
